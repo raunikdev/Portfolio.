@@ -1,0 +1,28 @@
+.header{
+  display: flex;
+  height: 50px;
+  position: fixed;
+  background-color: rgb(0,0,0,0.2);
+  right: 0px;
+  left: 0px;
+  top: 0px;
+  z-index: 500;
+}
+.head{
+  margin-left: 10px;
+  font-size: 40px;
+  font-family: "roboto", serif;
+  color: white;
+}
+.right-header {
+  display: flex;
+  justify-content: flex-end; /* This pushes the content to the right */
+  flex: 1;
+  align-items: center; /* Centers the ul vertically */
+}
+
+.right-header ul {
+  display: flex; /* Makes the ul items align horizontally */
+  margin-left: auto; /* Pushes the ul to the right */
+  padding-right: 50px; /* Optional: Add some space on the right */
+}
